@@ -56,3 +56,5 @@ Vậy suy ra tham số 19 từ stack là địa chỉ của hàm main + 65
 Ta có script exploit như sau:
 
 ![Image](https://github.com/user-attachments/assets/047c2755-57bc-4c7d-921d-d43dd9c5859d)
+
+Flag: picoCTF{p13_5h0u1dn'7_134k_2509623b}
