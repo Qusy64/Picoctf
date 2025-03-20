@@ -51,6 +51,8 @@ Ta thấy nếu đặt breakpoint ngay trước lệnh printf(s) có lỗi forma
 
 Vậy suy ra tham số 19 từ stack là địa chỉ của hàm main + 65
 
+(0x68 ÷ 8) + 6 = 13 + 6 = 19
 
 Ta có script exploit như sau:
+
 ![Image](https://github.com/user-attachments/assets/047c2755-57bc-4c7d-921d-d43dd9c5859d)
