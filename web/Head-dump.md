@@ -1,6 +1,6 @@
 # Head-Dump
 Ở bài ta sẽ truy cập vào trang web sau:
-![image](https://hackmd.io/_uploads/rkmtdEPGxl.png)
+![image](https://github.com/user-attachments/assets/e74b7ecd-f1a3-47cc-ba21-8cafa2e114e8)
 
 Nhìn qua thì chẳng có gì đặc biệt, giờ ta sẽ xem source code của trang web.
 
@@ -61,19 +61,19 @@ Nhìn qua thì chẳng có gì đặc biệt, giờ ta sẽ xem source code củ
 ```
 Nhấn vào thử, ta thấy hiện ra 1 trang web gồm danh sách các điểm cuối của API. Quan sát thì thấy ở phần `Diagnosing` có điểm cuối là `/heapdump`. 
 
-![image](https://hackmd.io/_uploads/Bkzmp4DGge.png)
+![image](https://github.com/user-attachments/assets/7fa61a57-0f65-4918-9e70-da8220886e73)
 
 Mở ra ta thấy nút `Try it out`, chẳng suy nghĩ nhiều, tôi ngay lập tức nhấn vào coi có gì xảy ra =)))))))))).
 
-![image](https://hackmd.io/_uploads/Hy1Ha4Dfle.png)
+![image](https://github.com/user-attachments/assets/65c041f7-0a64-4e38-add2-c2ad796a5980)
 
 Kết quả là:
 
-![image](https://hackmd.io/_uploads/BJtZTNvGlx.png)
+![image](https://github.com/user-attachments/assets/0d70bcef-9bff-4031-986a-1a9637bfc4a5)
 
 Tải file về (khả năng rất cao là file này chứa flag), mở ra thì thấy file rất lớn. 
 
-![image](https://hackmd.io/_uploads/r190aEDflx.png)
+![image](https://github.com/user-attachments/assets/765e35b6-99ea-462a-b106-a6da66df9f49)
 
 Tìm flag trong file:
 ```bash
