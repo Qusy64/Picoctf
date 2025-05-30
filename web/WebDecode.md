@@ -1,6 +1,7 @@
 # WebDecode
 Ở bài này ta sẽ có một trang web, nhiệm vụ của ta là tìm kiếm flag trong đó.
-![image](https://hackmd.io/_uploads/BJLSSewMge.png)
+![image](https://github.com/user-attachments/assets/97327b7a-5e04-404a-a695-0c010c83df4f)
+
 Ta sẽ xem source code lần lượt của các trang `HOME` , `ABOUT` , `CONTACT`.
 Trang `HOME`.
 ``` html
