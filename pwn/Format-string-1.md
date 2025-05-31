@@ -56,28 +56,28 @@ printf(buf);
 
 Còn lại, chương trình cũng không có hàm nào là có vẻ sẽ **"In flag"** cả. Nên ta sẽ thử nhập gì đó xem sao.
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/6a275cf6-a804-4ee5-afc1-6440c112c64d)
 
 Khả năng challenge này sẽ thử thách chúng ta lấy thông tin từ bộ nhớ và giải mã nó. Giờ ta sẽ thử lấy nhiều thông tin hơn và giải mã bằng [CyberChef](https://gchq.github.io/CyberChef/).
 
 Thử với 20 lần `%x`
 
-![alt text](image-1.png)
+![image](https://github.com/user-attachments/assets/d289e788-53f4-4292-b0f5-2f3cb2b88630)
 
 Có vẻ không có kết quả gì. Lúc này ta chú ý đến gợi ý của bài `Is this a 32-bit or 64-bit binary?`. Giờ hãy đổi thành 20 lần `%llx`.
 
-![alt text](image-2.png)
+![image](https://github.com/user-attachments/assets/8d56b2ea-8e67-4cd3-b62b-950e3ada2a75)
 
 Kết quả thì dường như chữ `picoCTF{...}` đã hiện ra nhưng ta cần sắp xếp lại một chút.
 
 Sau khi loại bỏ các " kí tự " không liên quan thì những gì còn lại sẽ là:
 
-![alt text](image-3.png)
+![image](https://github.com/user-attachments/assets/46605bcd-0e4b-48da-8dd0-59f90b32ba8f)
 
 Giờ ta sẽ sắp xếp đống này lại thành flag đúng.
 
 Mò mẫm một lúc lú cái đầu thì ra được flag :3
 
-![alt text](image-5.png)
+![image](https://github.com/user-attachments/assets/d2f06af8-c1fc-4917-ad13-9573b0ac4c67)
 
 Flag: picoCTF{4n1m41_57y13_4x4_f14g_9135fd4e}
