@@ -4,7 +4,7 @@ Với tên đề bài thì ta có thể đoán được đây sẽ là một bà
 Đầu tiên ta mở challenge ra, thấy có file nhị phân `format-string-0` và file .c `format-string-0.c`
 Chạy thử file nhị phân thì ta thấy:
 
-![alt text](image-1.png)
+![image](https://github.com/user-attachments/assets/06711bf9-3b90-472e-9d90-1215970076e7)
 
 Có vẻ như đây là một chương trình yêu cầu khách hàng lựa chọn menu ở quán burger mới mở tại `Pico 'n Patty`.
 
@@ -177,6 +177,6 @@ p.interactive()
 
 Và ta có được flag.
 
-![alt text](image-4.png)
+![image](https://github.com/user-attachments/assets/eaa243cb-52a9-4d5f-9c0c-adb755645a59)
 
 Flag: picoCTF{7h3_cu570m3r_15_n3v3r_SEGFAULT_63191ce6}
