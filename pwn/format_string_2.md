@@ -66,7 +66,7 @@ Mục tiêu của chúng ta bây giờ sẽ là làm cho biến `sus` từ `0x21
 
 Dùng lệnh `checksec` để kiểm tra các cơ chế bảo mật được bật trong file binary, ta thấy PIE không được bật $=>$ các địa chỉ của hàm, biến của chương trình là cố định. Vậy thì địa chỉ biến `sus` sẽ cố định, không thay đổi nên có thể dễ dàng ghi đè.
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/a609843c-f862-4a2e-99c2-eb27cca1917b)
 
 Tìm hiểu đôi chút cùng ChatGPT, tôi đã được biết rằng trong thư viện `pwntools`, class `FmtStr` có một tính năng là tự động dò tìm offset của format-string. 
 
