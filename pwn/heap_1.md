@@ -165,17 +165,17 @@ void write_buffer() {
 
 Khởi chạy local:
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/a8cd71d5-ad42-422d-a695-003517818a88)
 
 Ở địa chỉ `0x64174383d6b0` đang lưu trữ chuỗi pico (input được nhập vào sẽ lưu trữ từ đây). Và địa chỉ `safe_var` là `0x64174383d6d0` đang lưu trữ chuỗi bico. Ta thấy offset là 32 bytes, ta sẽ thử nhập 32 kí tự `a` và nhập chuỗi pico ở cuối.
 
-![alt text](image-2.png)
+![image](https://github.com/user-attachments/assets/ce1ff2f7-278b-4f44-9661-804d938de6b1)
 
 Ta thấy rằng vùng nhớ trên heap mà `safe_var` trỏ đến đã bị ghi đè thành chuỗi `pico`.
 
 Thực hiện print flag (số 4)
 
-![alt text](image-3.png)
+![image](https://github.com/user-attachments/assets/394f4402-341b-404f-95ca-ac8a792be744)
 
 Tôi `WIN` =))))))). Và tôi có file exploit như sau:
 
