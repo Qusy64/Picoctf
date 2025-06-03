@@ -176,15 +176,15 @@ void write_buffer() {
 
 Khởi chạy local:
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/4819b7d2-cb88-4fba-981b-bc44678ce2d2)
 
 Ta thấy input nhập vào sẽ bắt đầu lưu trữ từ địa chỉ `0x627d6e71a6b0` và địa chỉ mà con trỏ `safe_var` trỏ đến là `0x627d6e71a6d0`. Ta có offset là 32 bytes, giờ ta sẽ nhập 33 kí tự 'a' để làm thay đổi dữ liệu được lưu trữ ở địa chỉ `0x627d6e71a6d0`.
 
-![alt text](image-1.png)
+![image](https://github.com/user-attachments/assets/ebed478d-ab92-4010-9520-435676c86c03)
 
 Ta thấy dữ liệu được lưu trữ ở địa chỉ `0x627d6e71a6d0` đã thành a.
 
-![alt text](image-3.png)
+![image](https://github.com/user-attachments/assets/5e77f26a-51cb-41c3-9a3d-f54ef6fa15d4)
 
 Và tôi `Win`, giờ ta có file exploit như sau:
 
