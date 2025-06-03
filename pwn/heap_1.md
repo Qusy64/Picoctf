@@ -182,6 +182,7 @@ Tôi `WIN` =))))))). Và tôi có file exploit như sau:
 ``` python 
 from pwn import *
 
+#p = process('./chall')
 p = remote('tethys.picoctf.net', 57638)
 write = b'2'
 flag = b'4'
