@@ -167,7 +167,7 @@ Khởi chạy local:
 
 ![image](https://github.com/user-attachments/assets/a8cd71d5-ad42-422d-a695-003517818a88)
 
-Ở địa chỉ `0x64174383d6b0` đang lưu trữ chuỗi pico (input được nhập vào sẽ lưu trữ từ đây). Và địa chỉ `safe_var` là `0x64174383d6d0` đang lưu trữ chuỗi bico. Ta thấy offset là 32 bytes, ta sẽ thử nhập 32 kí tự `a` và nhập chuỗi pico ở cuối.
+Ở địa chỉ `0x64174383d6b0` đang lưu trữ chuỗi pico (input được nhập vào sẽ lưu trữ từ đây). Và địa chỉ `safe_var` trỏ đến là `0x64174383d6d0` đang lưu trữ chuỗi bico. Ta thấy offset là 32 bytes, ta sẽ thử nhập 32 kí tự `a` và nhập chuỗi pico ở cuối.
 
 ![image](https://github.com/user-attachments/assets/ce1ff2f7-278b-4f44-9661-804d938de6b1)
 
