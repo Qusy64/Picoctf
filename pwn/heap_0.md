@@ -180,7 +180,7 @@ Khởi chạy local:
 
 Ta thấy input nhập vào sẽ bắt đầu lưu trữ từ địa chỉ `0x627d6e71a6b0` và địa chỉ mà con trỏ `safe_var` trỏ đến là `0x627d6e71a6d0`. Ta có offset là 32 bytes, giờ ta sẽ nhập 33 kí tự 'a' để làm thay đổi dữ liệu được lưu trữ ở địa chỉ `0x627d6e71a6d0`.
 
-![image](https://github.com/user-attachments/assets/ebed478d-ab92-4010-9520-435676c86c03)
+![image](https://github.com/user-attachments/assets/fc16681f-189a-44a2-b782-2f3f0cbc6383)
 
 Ta thấy dữ liệu được lưu trữ ở địa chỉ `0x627d6e71a6d0` đã thành a.
 
