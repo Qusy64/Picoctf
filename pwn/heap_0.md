@@ -186,7 +186,7 @@ Ta thấy dữ liệu được lưu trữ ở địa chỉ `0x627d6e71a6d0` đã
 
 ![image](https://github.com/user-attachments/assets/5e77f26a-51cb-41c3-9a3d-f54ef6fa15d4)
 
-Và tôi `Win`, giờ ta có file exploit như sau:
+Và tôi `WIN`, giờ ta có file exploit như sau:
 
 ``` python
 from pwn import *
