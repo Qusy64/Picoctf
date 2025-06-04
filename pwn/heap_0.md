@@ -164,7 +164,7 @@ void check_win() {
 
 Điều kiện để in flag là dữ liệu được lưu nơi địa chỉ mà `safe_var` trỏ đến khác với chuỗi `bico`.
 
-Tiếp tục nhìn vào hàm `write_buffer()` ta thấy rằng việc nhập vào không giới hạn kí tự (ở lựa chọn số 2).
+Tiếp tục nhìn vào hàm `write_buffer()` ta thấy rằng việc nhập vào không giới hạn kí tự (Buffer overflow).
 
 ``` c
 void write_buffer() {
