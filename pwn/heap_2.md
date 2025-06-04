@@ -113,7 +113,7 @@ Dùng lệnh `checksec` để kiểm tra các cơ chế bảo mật được b�
 
 Ta sẽ sử dụng GDB để tìm địa chỉ hàm `win()` như sau:
 
-![image](https://github.com/user-attachments/assets/c9729603-d41d-4699-a748-9d2595a2acf2)
+![image](https://github.com/user-attachments/assets/d3567fe9-9f0b-4f57-be89-470897d28fd0)
 
 $->$ Ta có địa chỉ hàm `win()` là: `0x00000000004011a0`.
 
