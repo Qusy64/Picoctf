@@ -126,7 +126,7 @@ Chương trình vẫn hoạt động theo các lựa chọn như các challenge 
 
 Chạy thử local thì ta có giao diện sau:
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/7dafc717-cae7-4934-8485-be8591873c1f)
 
 Nhìn sơ qua code thì ta thấy một dòng gây ra lỗi trong hàm `free_memory()`:
 
