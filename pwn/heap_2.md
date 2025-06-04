@@ -109,17 +109,17 @@ $=>$ **Nếu vùng nhớ mà `x` trỏ đến chứa địa chỉ hàm `win()`, 
 
 Dùng lệnh `checksec` để kiểm tra các cơ chế bảo mật được bật trong file binary, ta thấy PIE không được bật $=>$ các địa chỉ của hàm, biến của chương trình là cố định. Vậy thì địa chỉ hàm `win()` sẽ cố định, không thay đổi nên có thể dễ dàng ghi đè.
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/18553ad9-40fa-4f54-93ed-d4aa01e16e62)
 
 Ta sẽ sử dụng GDB để tìm địa chỉ hàm `win()` như sau:
 
-![alt text](image-1.png)
+![image](https://github.com/user-attachments/assets/c9729603-d41d-4699-a748-9d2595a2acf2)
 
 $->$ Ta có địa chỉ hàm `win()` là: `0x00000000004011a0`.
 
 Giống như bài `heap_0` và bài `heap_1`, offset tính từ địa chỉ mà input bắt đầu được nhập vào đến địa chỉ mà con trỏ `x` trỏ đến là 32.
 
-![alt text](image-2.png)
+![image](https://github.com/user-attachments/assets/82f08ccc-bc9f-48ce-8dd9-b95bdf709aad)
 
 Ta nhập 32 ký tự `a` rồi sau đó nhập địa chỉ của hàm `win()` (theo định dạng little endian).
 
