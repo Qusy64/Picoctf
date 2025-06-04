@@ -153,7 +153,7 @@ void check_win() {
 
 Ta thấy hàm sẽ in flag nếu `safe_var` bằng với chuỗi `pico`. Ta có `safe_var` được khởi tạo ban đầu là `bico`. Ta sẽ cố gắng làm cho `save_var` bằng với chuỗi `pico`.
 
-Nhìn vào hàm `write_buffer()` ta thấy rằng việc nhập vào không giới hạn kí tự (ở lựa chọn số 2).
+Nhìn vào hàm `write_buffer()` ta thấy rằng việc nhập vào không giới hạn kí tự (Buffer overflow).
 
 ``` c
 void write_buffer() {
