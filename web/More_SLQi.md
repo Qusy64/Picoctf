@@ -1,7 +1,7 @@
 # More SQLi
 Challenge này cho chúng ta 1 website, với gợi ý khai thác là `SQLiLite`. Ấn vào link trang web, ta thấy giao diện trang web hiện ra như sau:
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/fb3b6a37-3ca4-4db5-9196-b91b1564e3c3)
 
 Hãy thử gõ gì đó vào phần `login`.
 
@@ -35,7 +35,7 @@ Nghĩa là điều kiện `password` đúng và phần `username` phía sau bị
 
 Và ta đã `login` thành công:
 
-![alt text](image-1.png)
+![image](https://github.com/user-attachments/assets/903fa554-720c-4e76-ae50-0dbbab3ec600)
 
 Ta thấy web hiển thị một bảng thông tin và một thanh tìm kiếm. Nhìn qua thì có vẻ không thấy flag ở đâu cả, có lẽ rằng ta sẽ tiếp tục khai thác bằng `SQL` khác để tìm flag.
 
@@ -56,7 +56,7 @@ Câu lệnh này được dùng trong tấn công `SQL Injection` trên cơ sở
 
 Kết quả là ta thấy được các bảng được tạo ra:
 
-![alt text](image-2.png)
+![image](https://github.com/user-attachments/assets/be8a669e-8acc-4c8f-ae0c-150558ab013b)
 
 Ta thấy bảng `more_table` có chứa flag trong đó:
 
@@ -72,7 +72,7 @@ Giờ ta sẽ lấy flag trong đó bằng câu lệnh:
 
 Tương tự như câu lệnh trước đó, với câu lệnh này thì ta sẽ mở cột `flag` trong bảng `more_table`.
 
-![alt text](image-3.png)
+![image](https://github.com/user-attachments/assets/c6f9da13-6225-453a-a8a7-acf30306d283)
 
 Và ta có flag:
 
