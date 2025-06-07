@@ -1,7 +1,7 @@
 # Bookmarklet
 Truy cập vào website của challenge, ta thấy như sau:
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/ff590fd5-f682-4399-ac2d-b0d3a120e289)
 
 Từ `bookmark` trông vừa lạ mà vừa quen, tra cứu một chút thì `bookmarklet` là một loại đặc biệt của `bookmark` (dấu trang), nhưng thay vì lưu một đường link thông thường, nó lưu một đoạn mã `JavaScript` nhỏ.
 
