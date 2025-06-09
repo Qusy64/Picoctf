@@ -1,7 +1,7 @@
 # SSTI2
 Giống như bài SSTI1, bài này cũng là 1 bài khai thác lỗ hổng SSTI.
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/0fa6e176-6158-4e20-8700-8ed6cb0ff4f0)
 
 SSTI (Server-Side Template Injection) là một lổ hổng web xảy ra khi kẻ tấn công có thể chèn đầu vào độc hại vào công cụ mẫu của ứng dụng web.
 
@@ -13,7 +13,7 @@ Ta thử nghiệm payload:
 
 Và kết quả là:
 
-![alt text](image-1.png)
+![image](https://github.com/user-attachments/assets/4454c568-c9fc-4afb-8025-9694bc532c15)
 
 Template engine đang được sử dụng là `Jinja2` giống như bài SSTI1.
 
@@ -25,7 +25,7 @@ Tiếp tục nhập thử `payload` khai thác SSTI sau (giống như ở bài S
 
 Và kết quả là:
 
-![alt text](image-2.png)
+![image](https://github.com/user-attachments/assets/7037550f-6d71-4e4c-ad3e-240afec9cc55)
 
 Có vẻ như trang web đã chặn hoạt động của `payload` cũ. Giờ ta cần một `payload` khác không bị chặn bởi trang web.
 
