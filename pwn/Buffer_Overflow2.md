@@ -63,7 +63,7 @@ Giống như bài `Buffer Overflow 1`, ta làm điều tương tự để ghi đ
 
 Đầu tiên thì ta tìm cách ghi đè địa chỉ hàm `win()` lên địa chỉ trả về của hàm `vuln()`. Ta có thể dùng `cyclic` để tạo chuỗi kí tự theo quy tắc tuần hoàn nhằm tìm ra `offset` dễ dàng hơn:
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/d5585dd3-8a49-4033-99de-fa4b7a472ed0)
 
 Ta thấy địa chỉ trả về bị ghi đè bởi chuỗi 4 kí tự là `daab`. 
 
