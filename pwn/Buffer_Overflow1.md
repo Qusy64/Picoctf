@@ -76,7 +76,7 @@ Vậy giờ ta sẽ làm sao đó để ghi đè địa chỉ trả về của h
 
 Đầu tiên dùng lệnh `checksec` để kiểm tra các cơ chế bảo mật được bật trong file binary, ta thấy đây là một chương trình ELF 32 bit và `PIE` không được bật:
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/61330016-e78f-45ec-94ba-7b9a76507db6)
 
 Vì vậy nên địa chỉ của hàm `win()` là cố định nên có thể dễ dàng ghi đè địa chỉ của hàm `win()` lên địa chỉ trả về của hàm `vuln()`.
 
@@ -84,7 +84,7 @@ Ta có địa chỉ hàm `win()` là `0x080491f6`. Ta biết rằng mảng `buf`
 
 Chỉ cần dùng `GDB` ta thấy rằng khi bắt đầu nhập chuỗi kí tự thì địa chỉ nhận dữ liệu ban đầu là `0xffffd010` và địa chỉ vùng nhớ mà lệnh `return` trỏ tới trên stack là `0xffffd03c`:
 
-![alt text](image-1.png)
+![image](https://github.com/user-attachments/assets/d1c7dd25-a5c9-46a9-b067-c2b86933d197)
 
 Lấy `0xffffd03c` trừ đi `0xffffd010`:
 
